@@ -173,6 +173,7 @@ class RecordProViewController: UIViewController {
         }
         catch {
             print(error.localizedDescription)
+            
         }
     }
 }
