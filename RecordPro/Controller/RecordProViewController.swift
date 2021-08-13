@@ -82,6 +82,7 @@ class RecordProViewController: UIViewController {
         
         // Set the default audio file
         let audioFileURL = directoryURL.appendingPathComponent("MyAudioMemo.mp4")
+        print(audioFileURL)
         
         // Setup audio session
         let audioSession = AVAudioSession.sharedInstance()
